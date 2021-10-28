@@ -21,6 +21,22 @@ body{
     font-weight: 400;
     text-align: center;
     color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.headertxt:hover{
+    color: lightgreen;
+}
+.top{
+    display: flex;
+}
+.navbar-toggler{
+    width: 10%;
+}
+.toggle{
+    width: 100%;
+    height: auto;
+    filter: brightness(0) invert(1);
 }
 .content{
     padding: 90px 0;
@@ -146,6 +162,13 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+.bioimg{
+    width: 98%;
+    height: auto;
+}
+#bio1{
+    height: 334px;
+}
 .biohd{
     font-weight: 700;
     font-style: normal;
@@ -231,8 +254,8 @@ footer{
     margin: 80px 0 70px;
 }
 @media screen and (max-width: 768px) {
-    .container-fluid{
-        max-width: 100%;
+    .top{
+        flex-direction: row-reverse;
     }
     .button1{
         margin-bottom: 50px;       

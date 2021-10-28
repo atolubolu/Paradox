@@ -241,9 +241,8 @@ footer{
         width: 20%;
     }
     .design{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
+        height: auto;
     }
     .hd{
         font-size: 24px;

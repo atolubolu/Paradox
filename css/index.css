@@ -3,6 +3,10 @@ body{
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
 }
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
 .desktop1{
     background: linear-gradient(139.99deg, #3F4FD7 22.82%, rgba(14, 25, 116, 0.86) 82.13%);
 }
@@ -170,7 +174,12 @@ body{
     font-style: normal;
     font-size: 16px;
     width: 13%;
+    height: 45px;
     margin-top: 50px;
+    border-radius: 90px;
+    border: none;
+    color: white;
+    text-transform: capitalize;
 }
 .footer{
     margin-top: 300px;
@@ -222,6 +231,9 @@ footer{
     margin: 80px 0 70px;
 }
 @media screen and (max-width: 768px) {
+    .container-fluid{
+        max-width: 100%;
+    }
     .button1{
         margin-bottom: 50px;       
     }    
@@ -269,5 +281,59 @@ footer{
         align-items: center;
         justify-content: center;
         margin-bottom: 80px;
+    }
+    .button3{
+        width: fit-content;
+    }
+}
+@media screen and (max-width: 375px) {
+    .wdv{
+        font-size: 34px;
+    }
+    .qaz{
+        font-size: 20px;
+    }
+    .button1{
+        margin-bottom: 15px;
+    }
+    .socials{
+        width: 40%;
+    }
+    .design{
+        width: 100%;
+        height: auto;
+    }
+    .subhd{
+        font-size: 18px;
+    }
+    .outlinep{
+        font-size: 16px;
+        width: 70%;
+    }
+    .hd2{
+        font-size: 18px;
+        text-align: center;
+    }
+    .txt{
+        font-size: 14px;
+    }
+    .more{
+        width: fit-content;
+    }
+    .worktxt{
+        width: 75%;
+    }
+    .socialsft{
+        margin-top: 20px;
+    }
+    .logo{
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .footersechd, .footersectxt{
+        text-align: center;
+    }
+    .footersectxt, .footersechd > *{
+        margin: 8px;
     }
 }

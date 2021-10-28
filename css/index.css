@@ -9,6 +9,7 @@ body{
 .header{
     display: flex;
     align-items: center;
+    padding-top: 22px;
 }
 .headertxt{
     font-size: 16px;
@@ -38,7 +39,7 @@ body{
     text-transform: capitalize;
     margin: 30px 0;
 }
-button{
+.button1{
     border: none;
     border-radius: 90px;
     background: #71D5FF3D;
@@ -50,6 +51,7 @@ button{
     text-transform: capitalize;
     width: 150px;
     height: 45px;
+    margin-bottom: 100px;
 }
 .details{
     width: 585px;
@@ -71,8 +73,10 @@ button{
     text-align: center;
     color: #FF688C;
     text-transform: uppercase;
+    margin: 75px 0 8px;
 }
 .subhd{
+    margin: 8px 0 25px;
     font-weight: 900;
     font-style: normal;
     font-size: 38px;
@@ -83,11 +87,187 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 25px 0 60px;
 }
 .outlinep{
     width: 30%;
     text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
 }
-footer > .row > .socials{
+.section{
+    margin: 10px 0 35px ;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hd2{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    margin: 105px 0 55px;
+}
+.txt{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    width: 70%;
+}
+.hd3{
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FF688C;
+    text-transform: uppercase;
+    margin: 330px 0 8px;
+}
+.butn{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 215px;
+}
+.more{
+    background-color: transparent;
+    color: #FF688C;
+    border: 2px solid #C4C4C4;
+    width: 13%;
+    font-size: 16px;
+    border-radius: 90px;
+    width: 13%;
+    height: 45px;
+    font-weight: 400;
+    font-style: normal;
+}
+.biohd{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+}
+.biotxt{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #696969;
+}
+.id{
+    margin-bottom: 200px;
+}
+.worktxt{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #7F7E7E;
+    width: 50%;
+}
+.button3{
+    background: linear-gradient(101.53deg, #127CFF -9.34%, #2FC1FE 106.23%);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    width: 13%;
+    margin-top: 50px;
+}
+.footer{
+    margin-top: 300px;
+}
+.logo{
+    display: flex;
+    align-items: flex-start;
+    height: min-content;
+}
+.logotxt{
+    font-weight: 700;
+    font-style: normal;
+    size: 16px;
+    text-transform: uppercase;
+    padding: 8px;
+}
+.logo > img{
+    width: min-content;
+    height: min-content;
+}
+.footersechd{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 9px;
+    margin: 0;
+}
+.footersectxt{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #797979;
+    text-transform: capitalize;
+    margin-bottom: 9px;
+    margin: 0;
+}
+.socialsft{
+    display: flex;
+    align-items: start;
     filter: grayscale(1) invert(1);
+    margin: 0;
+    justify-content: space-evenly;
+}
+.foot{
+    height: min-content;
+}
+footer{
+    margin: 80px 0 70px;
+}
+@media screen and (max-width: 768px) {
+    .button1{
+        margin-bottom: 50px;       
+    }    
+    .socials{
+        width: 20%;
+    }
+    .design{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hd{
+        font-size: 24px;
+    }
+    .subhd{
+        width: 80%;
+    }
+    .outlinep{
+        width: 60%;
+        font-size: 22px;
+    }
+    .img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .section:nth-of-type(2){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img:first-of-type{
+        margin: 0;
+    }
+    .img:last-of-type{
+        margin-top: 40px;
+    }
+    .txt{
+        font-size: 20px;
+        text-align: center;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
 }

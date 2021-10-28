@@ -27,9 +27,6 @@ body{
 .headertxt:hover{
     color: lightgreen;
 }
-/* .top{
-    display: flex;
-}
 .navbar-toggler{
     width: 10%;
 }
@@ -37,7 +34,7 @@ body{
     width: 100%;
     height: auto;
     filter: brightness(0) invert(1);
-} */
+}
 .content{
     padding: 90px 0;
     display: flex;

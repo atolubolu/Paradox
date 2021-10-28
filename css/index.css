@@ -244,6 +244,13 @@ footer{
         width: 100%;
         height: auto;
     }
+    .section > img{
+        width: 100%;
+        height: auto;
+    }
+    .more{
+        width: fit-content;
+    }
     .hd{
         font-size: 24px;
     }

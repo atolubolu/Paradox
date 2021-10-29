@@ -83,6 +83,10 @@ body{
     flex-direction: column;
     align-items: flex-start;
 }
+.design{
+    width: 100%;
+    height: auto;
+}
 .hd{
     font-weight: 900;
     font-style: normal;
@@ -355,9 +359,6 @@ footer{
     .logo{
         justify-content: center;
         margin-bottom: 10px;
-    }
-    .footersechd, .footersectxt{
-        text-align: center;
     }
     .footersectxt, .footersechd > *{
         margin: 8px;
